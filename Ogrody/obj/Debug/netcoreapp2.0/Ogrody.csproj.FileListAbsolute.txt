@@ -1,0 +1,11 @@
+C:\Users\Michał\source\repos\Ogrody\Ogrody\bin\Debug\netcoreapp2.0\Ogrody.deps.json
+C:\Users\Michał\source\repos\Ogrody\Ogrody\bin\Debug\netcoreapp2.0\Ogrody.runtimeconfig.json
+C:\Users\Michał\source\repos\Ogrody\Ogrody\bin\Debug\netcoreapp2.0\Ogrody.runtimeconfig.dev.json
+C:\Users\Michał\source\repos\Ogrody\Ogrody\bin\Debug\netcoreapp2.0\Ogrody.dll
+C:\Users\Michał\source\repos\Ogrody\Ogrody\bin\Debug\netcoreapp2.0\Ogrody.pdb
+C:\Users\Michał\source\repos\Ogrody\Ogrody\obj\Debug\netcoreapp2.0\Ogrody.csprojResolveAssemblyReference.cache
+C:\Users\Michał\source\repos\Ogrody\Ogrody\obj\Debug\netcoreapp2.0\Ogrody.csproj.CoreCompileInputs.cache
+C:\Users\Michał\source\repos\Ogrody\Ogrody\obj\Debug\netcoreapp2.0\Ogrody.AssemblyInfoInputs.cache
+C:\Users\Michał\source\repos\Ogrody\Ogrody\obj\Debug\netcoreapp2.0\Ogrody.AssemblyInfo.cs
+C:\Users\Michał\source\repos\Ogrody\Ogrody\obj\Debug\netcoreapp2.0\Ogrody.dll
+C:\Users\Michał\source\repos\Ogrody\Ogrody\obj\Debug\netcoreapp2.0\Ogrody.pdb

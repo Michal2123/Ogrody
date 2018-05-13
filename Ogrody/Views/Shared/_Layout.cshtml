@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/CSS/StyleSheet.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <style>
+    </style>
+</head>
+<body>
+        <div id="myCarousel" class="carousel slide container-fluid container">
+
+            <ol class="carousel-indicators">
+                <li class="item1 active"></li>
+                <li class="item2"></li>
+                <li class="item3"></li>
+                <li class="item4"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                <div class="item active">
+                    <img src="~/IMG/3fd665eef0037884d17258ca7168655c.jpg" width="460" height="345">
+                    <div class="carousel-caption">
+                        <h3>Chania</h3>
+                        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="~/IMG/3fd665eef0037884d17258ca7168655c.jpg" width="460" height="345">
+                    <div class="carousel-caption">
+                        <h3>Chania</h3>
+                        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="~/IMG/3fd665eef0037884d17258ca7168655c.jpg" width="460" height="345">
+                    <div class="carousel-caption">
+                        <h3>Flowers</h3>
+                        <p>Beautiful flowers in Kolymbari, Crete.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="~/IMG/3fd665eef0037884d17258ca7168655c.jpg" width="460" height="345">
+                    <div class="carousel-caption">
+                        <h3>Flowers</h3>
+                        <p>Beautiful flowers in Kolymbari, Crete.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" role="button">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <nav class="navbar navbar-inverse container" style="background: rgba(14, 133, 18, 0.85)" data-spy="affix" data-offset-top="345">
+            <div class="navbar-header">
+                <a class="navbar-brand"><img src="~/IMG/logo.png" /></a>
+            </div>
+            <h4 class="navbar-text" style="color:white;"><i class="fa fa-leaf"></i> Ogrody</h4>
+            <h4 class="navbar-text navbar-right" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif; padding-right:30px; color:white;">Wszystko dla twojego ogrodu  </h4>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" style="color:white; ">
+                        Spis
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#Costam">Góra</a></li>
+                        <li><a href="#footer">Stopka</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" data-toggle="collapse" data-target="#cennikTable" style="color:white;">Cennik</a></li>
+                <li><a href="#" data-toggle="collapse" data-target="#kontaktCollapse" style="color:white;">kontak</a></li>
+            </ul>
+        </nav>
+        <section id="body" class="container ">
+            @RenderBody()
+        </section>
+        <footer class="container">
+            <div id="footer" class="text-center">Michał Owczarczyk LLC</div>
+        </footer>
+    <script>
+        $(document).ready(function () {
+            // Activate Carousel
+            $("#myCarousel").carousel();
+
+            // Enable Carousel Indicators
+            $(".item1").click(function () {
+                $("#myCarousel").carousel(0);
+            });
+            $(".item2").click(function () {
+                $("#myCarousel").carousel(1);
+            });
+            $(".item3").click(function () {
+                $("#myCarousel").carousel(2);
+            });
+
+            // Enable Carousel Controls
+            $(".left").click(function () {
+                $("#myCarousel").carousel("prev");
+            });
+            $(".right").click(function () {
+                $("#myCarousel").carousel("next");
+            });
+        });
+    </script>
+</body>
+</html>

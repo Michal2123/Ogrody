@@ -1,0 +1,102 @@
+﻿body{
+    background-image: url('../img/ogród-13.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg {
+    height: 100%;
+}
+
+#cointainer {
+    min-height: 100%;
+    position: relative;
+}
+
+#header {
+    width:100%;
+}
+
+#body {
+    margin-bottom: 60px;
+    padding: 10px;
+}
+
+#footer {
+
+}
+
+#tekstgl {
+    background: rgba(255, 255, 255, 0.80);
+    border: 1px inset black;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:10px;
+}
+
+#tekstlewa {
+    background: rgba(255, 255, 255, 0.80);
+    border: 1px inset black;
+    border-radius: 5px;
+    padding:10px;
+}
+
+#tekstprawa {
+    background: rgba(255, 255, 255, 0.80);
+    border: 1px inset black;
+    border-radius: 5px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+    .affix + .container-fluid {
+        padding-top: 100px;
+    }
+
+#kontaktCollapse {
+    background: rgba(255, 255, 255, 0.80);
+    border: 1px inset black;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    height: 50px;
+    padding: 0px 15px;
+}
+
+#cennikTable {
+    background: rgba(255, 255, 255, 0.80);
+    border: 1px inset black;
+    border-radius: 5px;
+}
+
+/*.navbar-default {
+    background-color: forestgreen;
+    color: black
+}
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: black;
+    }*/
+
+    .navbar-inverse .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+        background-color: #080535;
+    }
+
+/*.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #000000;
+    text-decoration: none;
+    background-color: #66CCFF;
+}*/

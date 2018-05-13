@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+<div id="text">
+    <div id="tekstlewa" class="col-md-3 text-left">
+        <h5>Spis</h5>
+
+
+    </div>
+    <div class="col-md-6" style="padding:0px;">
+        <div id="cennikTable" class="collapse">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nazwa</th>
+                            <th>Kaucja</th>
+                            <th>Stawka dobowa/godzinowa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Areator JakisTam 1Km</td>
+                            <td>500 zl</td>
+                            <td>100zl/40zl</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Wertykulator CosTam 15Km</td>
+                            <td>700zl</td>
+                            <td>200zl/60zl</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="tekstgl">
+            <h4 id="Costam">Coś tam</h4>
+            <p>
+                Metody - metody mogą posiadać tzw. Parametry, Innymi słowy — przekazujemy metodzie tekst do wyświetlenia na konsoli, przekazujesz metodzie dane, na których ona operuje. Obowiązkowym elementem każdej metody są nawiasy, w których podaje się parametry. Jednak nie wszystkie metody w środowisku .NET Framework mają parametry — w takim wypadku pozostawiamy pusty nawias
+                Klasy - O klasach można powiedzieć, iż jest to zestaw metod. Przykładowo, klasa Console zawiera zestaw metod służących do operowania na konsoli. Myśl o klasach jak o przyborniku, paczuszce zawierającej przydatne narzędzia.
+                Funkcje - Funkcje jako takie nie istnieją w C#! Zamiast tego mówimy o wspomnianych już w tej książce metodach. Idea jest w zasadzie identyczna, ale aby uniknąć nieporozumień, będę się starał nie używać słowa funkcja. Z tym słowem spotkasz się zapewne nie raz w swojej karierze, gdyż mechanizm funkcji jest obecny w wielu językach programowania. Funkcje to wydzielony blok kodu realizujący jakieś zadanie
+                Programowanie proceduralne - Idea programowania proceduralnego zaczęła się pojawiać wraz z bardziej zaawansowanymi aplikacjami. Tradycyjny moduł projektowania nie sprawdzał się dobrze, gdy programy zaczęły być bardziej skomplikowane — wówczas ich konserwacja i naprawianie błędów były niezwykle trudne. Ktoś mądry wymyślił wtedy, że można by było dzielić program na mniejsze części — tzw. procedury. Przykładowo, jeżeli napisano kod, który wyświetla pewien komunikat i kończy działanie programu, a ów fragment jest używany wiele razy w tej aplikacji, to należałoby go dublować wiele razy. Powoduje to nie tylko zwiększenie objętości kodu, ale również potęguje podatność na błędy. Bo co się stanie, jeżeli właśnie w tym małym, wielokrotnie powtórzonym w aplikacji fragmencie, wystąpi błąd? Należałoby wówczas przeszukać cały kod i w każdym miejscu poprawiać usterkę. Teraz, w nowoczesnych językach programowania można umieścić pewien fragment kodu w procedurze i wywołać ją za każdym razem, kiedy zajdzie potrzeba jego wykonania! Generalnie w językach takich jak C++, PHP, Java nie istnieją procedury, lecz funkcje. Sama idea jest identyczna, ale z uwagi na to, iż w C# procedury nie istnieją, nie będę o nich więcej wspominał.
+                Przestrzeń nazw - Środowisko .NET Framework jest o wiele bardziej rozbudowane od swojego poprzednika — systemu WinAPI. Zawiera tysiące klas i innych typów, każdy posiada inną nazwę. W środowisku Win32 nie mogło się zdarzyć, że istniały dwie funkcje o takiej samej nazwie [#]_ , co jest możliwe w .NET Framework. Przykładowo, metoda WriteLine() wypisuje tekst, ale istnieje również metoda WriteLine(), która zapisuje go do pliku (metoda klasy TextWriter). Ich jednoczesna obecność jest niewykluczona, ponieważ należą do innych klas. Podobnie jest w przypadku przestrzeni nazw (ang. namespace). W obrębie kilku przestrzeni nazw mogą istnieć klasy o tej samej nazwie.
+                Operator kropki - Pojęcie operator zostanie wprowadzone w dalszej części rozdziału. Znak kropki (.) stanowi separator pomiędzy nazwą przestrzeni nazw, klasą a nazwą metody. Przy pomocy tego operatora otrzymujemy dostęp do elementów danej klasy czy przestrzeni nazw.
+                Słowo kluczowe using - Pisanie za każdym razem nazwy przestrzeni nazw, a następnie klasy i metody może być nieco męczące. Dlatego też można wykorzystać słowo kluczowe using, które informuje kompilator, że w programie będziemy korzystali z klas znajdujących się w danej przestrzeni nazw (np. System):
+            </p>
+        </div>
+    </div>
+
+        <div class="collapse col-md-3" id="kontaktCollapse">
+            <h3>Kontakt:</h3>
+            <p>Tel:</p>
+            <p>mail:</p>
+            <p>adres:</p>
+        </div>
+        <div id="tekstprawa" class="col-md-3">
+            <h4>Nagalowek</h4>
+            <p class=" text-right">
+                Metody - metody mogą posiadać tzw. Parametry, Innymi słowy — przekazujemy metodzie tekst do wyświetlenia na konsoli, przekazujesz metodzie dane, na których ona operuje. Obowiązkowym elementem każdej metody są nawiasy, w których podaje się parametry. Jednak nie wszystkie metody w środowisku .NET Framework mają parametry — w takim wypadku pozostawiamy pusty nawias
+                Klasy - O klasach można powiedzieć, iż jest to zestaw metod. Przykładowo, klasa Console zawiera zestaw metod służących do operowania na konsoli. Myśl o klasach jak o przyborniku, paczuszce zawierającej przydatne narzędzia.
+                Funkcje - Funkcje jako takie nie istnieją w C#! Zamiast tego mówimy o wspomnianych już w tej książce metodach. Idea jest w zasadzie identyczna, ale aby uniknąć nieporozumień, będę się starał nie używać słowa funkcja. Z tym słowem spotkasz się zapewne nie raz w swojej karierze, gdyż mechanizm funkcji jest obecny w wielu językach programowania. Funkcje to wydzielony blok kodu realizujący jakieś zadanie
+            </p>
+        </div>
+</div>
