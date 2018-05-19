@@ -1,4 +1,4 @@
-﻿body{
+﻿body {
     background-image: url('../img/ogród-13.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -15,35 +15,30 @@
 }
 
 #header {
-    width:100%;
+    width: 100%;
 }
 
 #body {
+    width: 100%;
+    background-color: white;
     margin-bottom: 60px;
     padding: 10px;
 }
 
-#footer {
-
-}
-
 #tekstgl {
-    background: rgba(255, 255, 255, 0.80);
     border: 1px inset black;
-    border-radius: 5px;
     font-family: 'Times New Roman', Times, serif;
-    padding:10px;
+    padding: 10px;
 }
 
 #tekstlewa {
     background: rgba(255, 255, 255, 0.80);
     border: 1px inset black;
     border-radius: 5px;
-    padding:10px;
+    padding: 10px;
 }
 
 #tekstprawa {
-    background: rgba(255, 255, 255, 0.80);
     border: 1px inset black;
     border-radius: 5px;
 }
@@ -65,7 +60,6 @@
     }
 
 #kontaktCollapse {
-    background: rgba(255, 255, 255, 0.80);
     border: 1px inset black;
     border-radius: 5px;
 }
@@ -76,27 +70,19 @@
 }
 
 #cennikTable {
-    background: rgba(255, 255, 255, 0.80);
     border: 1px inset black;
     border-radius: 5px;
 }
 
-/*.navbar-default {
-    background-color: forestgreen;
-    color: black
+.navbar-inverse a:hover {
+    background-color: blueviolet;
+    color: white;
 }
 
-    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-        color: black;
-    }*/
+.red-border {
+    border: 2px solid red;
+}
 
-    .navbar-inverse .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-        background-color: #080535;
-    }
-
-/*.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
-    color: #000000;
-    text-decoration: none;
-    background-color: #66CCFF;
-}*/
+.navbar-inverse .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #080535;
+}
